@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03da6f4d-e0da-435e-852e-7d03d0e89e1c" name="Default Changelist" comment="" />
+    <list default="true" id="03da6f4d-e0da-435e-852e-7d03d0e89e1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/show_reminder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_reminder/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,20 +21,66 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1156" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1156" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/show_reminder/settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reminder/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding>
+                <marker date="1555505443437" expanded="true" signature="153:158" ph="..." />
+                <marker date="1555505443437" expanded="true" signature="709:711" ph="..." />
+                <marker date="1555505443437" expanded="true" signature="737:742" ph="..." />
+                <marker date="1555505443437" expanded="true" signature="1113:1238" ph="..." />
+                <marker date="1555505443437" expanded="true" signature="1503:1624" ph="..." />
+                <marker date="1555505443437" expanded="true" signature="1655:1656" ph="..." />
+                <marker date="1555505443437" expanded="true" signature="1655:1660" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1555500598673" expanded="true" signature="88:93" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -49,6 +97,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/user/models.py" />
+        <option value="$PROJECT_DIR$/show_reminder/settings.py" />
+        <option value="$PROJECT_DIR$/reminder/models.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -73,6 +130,16 @@
           <expand>
             <path>
               <item name="show_reminder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="show_reminder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
+              <item name="reminder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="show_reminder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
               <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -143,13 +210,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20619336" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="4" />
@@ -181,8 +247,38 @@
     <entry file="file://$PROJECT_DIR$/show_reminder/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1555500598673" expanded="true" signature="88:93" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/show_reminder/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reminder/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding>
+            <marker date="1555505443437" expanded="true" signature="153:158" ph="..." />
+            <marker date="1555505443437" expanded="true" signature="709:711" ph="..." />
+            <marker date="1555505443437" expanded="true" signature="737:742" ph="..." />
+            <marker date="1555505443437" expanded="true" signature="1113:1238" ph="..." />
+            <marker date="1555505443437" expanded="true" signature="1503:1624" ph="..." />
+            <marker date="1555505443437" expanded="true" signature="1655:1656" ph="..." />
+            <marker date="1555505443437" expanded="true" signature="1655:1660" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
