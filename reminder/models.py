@@ -11,13 +11,22 @@ class RadioStation (models.Model):
     freq = models.CharField(max_length=30)
     location = models.CharField(max_length=30, choices=LOCATION_CHOICES)
 
+    def __str__(self):
+        return self.name
+
 
 class Tag(models.Model):
     name = models.CharField(max_length=30)
 
+    def __str__(self):
+        return self.name
+
 
 class Category(models.Model):
     name = models.CharField(max_length=30)
+
+    def __str__(self):
+        return self.name
 
 
 class Host (models.Model):
@@ -27,6 +36,10 @@ class Host (models.Model):
     radio_station = models.ForeignKey(RadioStation, on_delete=models.CASCADE)
 
 
+    def __str__(self):
+        return self.first_name + ' ' + self.last_name
+
+
 class Show (models.Model):
     title = models.CharField(max_length=100)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
@@ -34,6 +47,9 @@ class Show (models.Model):
     schedule = models.DateField()
     radio_station = models.ForeignKey(RadioStation, on_delete=models.CASCADE)
     tag = models.ManyToManyField(Tag, through='ShowTag')
+
+    def __str__(self):
+        return self.title
 
 
 class ShowHost (models.Model):
