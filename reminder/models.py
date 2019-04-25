@@ -74,4 +74,7 @@ class Reminder(models.Model):
     show = models.ForeignKey(Show, on_delete=models.CASCADE)
     time = models.DateField()
 
+    def __str__(self):
+        return self.show.title + ' reminder'
+
 
