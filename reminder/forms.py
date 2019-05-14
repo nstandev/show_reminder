@@ -1,10 +1,33 @@
 from django import forms
-from reminder.models import Reminder
+from reminder.models import Reminder, Show, Category, Guest, RadioStation
 
 
 class ReminderForm(forms.ModelForm):
     class Meta:
         model = Reminder
-        fields = ('time', 'show')
+        fields = ('time', 'show',)
 
+
+class ShowForm(forms.ModelForm):
+    class Meta:
+        model = Show
+        fields = ('title', 'category', 'host', 'radio_station', 'schedule', 'tag',)
+
+
+class CatForm(forms.ModelForm):
+    class Meta:
+        model = Category
+        fields = ('name',)
+
+
+class GuestForm(forms.ModelForm):
+    class Meta:
+        model = Guest
+        fields = ('first_name', 'last_name', 'occupation', 'show',)
+
+
+class RadioStationForm(forms.ModelForm):
+    class Meta:
+        model = RadioStation
+        fields = ('name', 'location', 'freq')
 

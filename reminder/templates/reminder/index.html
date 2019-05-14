@@ -1,5 +1,16 @@
-{% for reminder in reminders %}
+<table width="50%">
+    <tr>
+    <th>user</th>
+    <th>show</th>
+    <th>Time</th>
+    </tr>
+    {% for reminder in reminders %}
 
-    {{ reminder.listener }} {{ reminder.time }}<br>
+        <tr>
+            <td>{{ reminder.listener }} </td>
+            <td>{{ reminder.show }} </td>
+            <td>{{ reminder.time }}</td>
+        </tr><br>
 
-{% endfor %}
+    {% endfor %}
+</table>
