@@ -30,6 +30,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+*whl
 
 # Installer logs
 pip-log.txt
@@ -45,10 +46,10 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
-.pytest_cache/
+.pytest_*.mo
+cache/
 
 # Translations
-*.mo
 *.pot
 
 # Django stuff:
@@ -104,3 +105,5 @@ venv.bak/
 .mypy_cache/
 
 .idea
+.vscode/
+

@@ -1,0 +1,8 @@
+<h2>Add Show</h2>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="hidden" name="next" value="/add-reminder"/>
+    <button>submit</button>
+</form>

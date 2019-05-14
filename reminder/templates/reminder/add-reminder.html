@@ -1,0 +1,7 @@
+<form method="post">
+    {% csrf_token %}
+    Time: {{ form.time }}
+    Show: {{ form.show }}<a href="{% url 'reminder:add_show' %}">Add show</a>
+
+    <button>Set reminder</button>
+</form>

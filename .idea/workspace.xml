@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03da6f4d-e0da-435e-852e-7d03d0e89e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reminder/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/add-cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/add-guest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/add-host.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/add-radio-station.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/add-reminder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/add-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/add-tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/edit-reminder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/templates/reminder/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reminder/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/migrations/0002_auto_20190425_1124.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/show_reminder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reminder/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reminder/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reminder/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reminder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_reminder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_reminder/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_reminder/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_reminder/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,17 +87,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reminder/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="590">
+              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1555505443437" expanded="true" signature="153:158" ph="..." />
-                <marker date="1555505443437" expanded="true" signature="709:711" ph="..." />
-                <marker date="1555505443437" expanded="true" signature="737:742" ph="..." />
-                <marker date="1555505443437" expanded="true" signature="1113:1238" ph="..." />
-                <marker date="1555505443437" expanded="true" signature="1503:1624" ph="..." />
-                <marker date="1555505443437" expanded="true" signature="1655:1656" ph="..." />
-                <marker date="1555505443437" expanded="true" signature="1655:1660" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reminder/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="1305">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -91,10 +109,7 @@
         <entry file="file://$PROJECT_DIR$/user/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <marker date="1555500598673" expanded="true" signature="88:93" ph="..." />
-              </folding>
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -107,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+            <state relative-caret-position="237">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -152,20 +167,6 @@
           <expand>
             <path>
               <item name="show_reminder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="show_reminder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
-              <item name="reminder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="show_reminder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
-              <item name="show_reminder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="show_reminder" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -190,31 +191,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="show_reminder" type="Python.DjangoServer" factoryName="Django server">
-      <module name="show_reminder" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -273,26 +249,16 @@
     <entry file="file://$PROJECT_DIR$/user/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1555500598673" expanded="true" signature="88:93" ph="..." />
-          </folding>
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reminder/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="590">
+          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1555505443437" expanded="true" signature="153:158" ph="..." />
-            <marker date="1555505443437" expanded="true" signature="709:711" ph="..." />
-            <marker date="1555505443437" expanded="true" signature="737:742" ph="..." />
-            <marker date="1555505443437" expanded="true" signature="1113:1238" ph="..." />
-            <marker date="1555505443437" expanded="true" signature="1503:1624" ph="..." />
-            <marker date="1555505443437" expanded="true" signature="1655:1656" ph="..." />
-            <marker date="1555505443437" expanded="true" signature="1655:1660" ph="..." />
           </folding>
         </state>
       </provider>
@@ -302,15 +268,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reminder/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="1305">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        <state relative-caret-position="237">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
