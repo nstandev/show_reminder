@@ -1,5 +1,8 @@
 from django import forms
+from django.forms import PasswordInput
+
 from reminder.models import Reminder, Show, Category, Guest, RadioStation
+from user.models import Listener
 
 
 class ReminderForm(forms.ModelForm):

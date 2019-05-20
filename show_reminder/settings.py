@@ -40,7 +40,8 @@ INSTALLED_APPS = [
 
     #custom apps
     'reminder.apps.ReminderConfig',
-    'user.apps.UserConfig'
+    'user.apps.UserConfig',
+    'account.apps.AccountConfig',
 ]
 
 MIDDLEWARE = [
@@ -90,7 +91,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'show_reminder',
         'USER': 'root',
-        'PASSWORD': '12345678@',
+        'PASSWORD': '',
         'PORT': '',
         'HOST': 'localhost'
     }
@@ -133,3 +134,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# AUTH_USER_MODEL = 'account.User'
+
+AUTHENTICATION_BACKENDS = [
+    'user.emailbackend.EmailBackend',
+    'django.contrib.auth.backends.ModelBackend',
+]

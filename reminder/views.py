@@ -46,7 +46,7 @@ def add_show(request):
         else:
             return HttpResponse('Form is Not Valid')
 
-    context = {'form':form}
+    context = {'form': form}
     return render(request, 'reminder/add-show.html', context)
 
 

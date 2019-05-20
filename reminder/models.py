@@ -1,5 +1,5 @@
 from django.db import models
-from user.models import Listener
+from account.models import User
 
 # Create your models here.
 
@@ -43,8 +43,8 @@ STATE = (
     ("Zamfara", "Zamfara"),
 )
 
-class RadioStation (models.Model):
 
+class RadioStation (models.Model):
     name = models.CharField(max_length=30)
     freq = models.CharField(max_length=30)
     location = models.CharField(max_length=30, choices=STATE)
@@ -72,7 +72,6 @@ class Host (models.Model):
     last_name = models.CharField(max_length=30)
     oap_name = models.CharField(max_length=30)
     radio_station = models.ForeignKey(RadioStation, on_delete=models.CASCADE)
-
 
     def __str__(self):
         return self.first_name + ' ' + self.last_name
@@ -108,7 +107,7 @@ class ShowTag(models.Model):
 
 
 class Reminder(models.Model):
-    listener = models.ForeignKey(Listener, on_delete=models.CASCADE)
+    listener = models.ForeignKey(User, on_delete=models.CASCADE)
     show = models.ForeignKey(Show, on_delete=models.CASCADE)
     time = models.DateField()
 
