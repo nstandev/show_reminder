@@ -2,21 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03da6f4d-e0da-435e-852e-7d03d0e89e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/tests.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user/emailbackend.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user/templates/user-login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user/templates/user-register.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userinfo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userinfo/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userinfo/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userinfo/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userinfo/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userinfo/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userinfo/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reminder/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminder/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reminder/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reminder/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reminder/templates/reminder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/templates/reminder/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reminder/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/reminder/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/show_reminder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_reminder/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/show_reminder/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_reminder/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/migrations/0002_auto_20190425_1124.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
@@ -330,10 +345,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.21827795" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21827795" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.30016312" />
